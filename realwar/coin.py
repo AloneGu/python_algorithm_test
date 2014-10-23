@@ -14,7 +14,7 @@ def find_couterfeit_coin(a,low,high):
         else :
             return mid          # the mid is different one return it
       else:                  # when n is even
-        mid=tmp_len/2
+        mid=low+tmp_len/2
         if(get_sum(a, low, mid-1)==get_sum(a, mid, high)):  #left part and right part are balanced
             return -1
         else :
