@@ -1,4 +1,5 @@
 # Windows image file caches
+*/*/.ipynb_checkpoints
 */.ipynb_checkpoints
 Thumbs.db
 ehthumbs.db
